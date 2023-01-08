@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    /* height: 6vh; */
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    height: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 0 3vh;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 20px;
+    width: 75px;
+    padding: 0 1vw;
+}
+.logo2 img {
+    height: 20px;
+    width: 50px;
+    padding: 0 1vw;
+}
+
+.search {
+
+    display: flex;
+    align-items: center;
+}
+
+.midimg {
+    height: 50vh;
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+.search input {
+    height: 4vh;
+    width: 30vw;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0vh 13px;
+    padding-left:0 10px;
+}
+
+.slider {
+    margin: 2vh auto;
+    overflow: hidden;
+
+}
+
+.card h2 {
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card {
+    max-width: 95vw;
+    font-family: 'Poppins', sans-serif;
+    margin: 3vh auto;
+
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+
+
+    justify-content: center;
+}
+
+.card-item {
+    /* width: 10.5vw; */
+    display: inline-flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin: 0px 15px;
+    /* margin: 12px 0px; */
+}
+
+.container {
+    min-height: calc(100vh - 1vh - 12vh);
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px 0px;
+
+    }
+
+    .nav ul {
+        display: flex;
+        height: 34px;
+        justify-content: center;
+        align-items: center;
+        height: 3vw;
+    }
+
+    .search {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search input {
+        height: 6vh;
+        width: 30vw;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 1vh 1vh;
+        padding-left: 10px;
+    }
+
+    .slider {
+        height: 23vh;
+    }
+
+}
+
+
+
+
+footer {
+    height: 8vh;
+    color: white;
+    background-color: #2874f0;
+    ;
+
+    font-family: 'Poppins', sans-serif;
+}
